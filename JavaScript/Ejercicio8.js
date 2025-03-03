@@ -1,10 +1,11 @@
-/*7. Crear una función find que acepte un array y un callback y que:
+/*Crear una función findIndex que acepte un array y un callback y que:
 • por cada elemento del array ejecute el callback pasándole dicho elemento como
 argumento
-• devuelva el elemento pasado como argumento del primer callback que devuelva true
+• devuelva el índice del elemento pasado como argumento del primer callback que
+devuelva true
 • sí ningún callback devuelve true, devuelva undefined */
 
-function find(array,callback){
+function findIndex(array,callback){
 
     for(let i  = 0 ; i < array.length ; i++){ //Se recorre el arreglo que se paso como argumento 
      
@@ -12,7 +13,7 @@ function find(array,callback){
 
         if(callback(resultado)  == true){//Se le pasa como argumento
           
-            return resultado;
+            return i;
 
 
         }
@@ -26,11 +27,14 @@ function devolver(numero){ //callback que recibe un numero como parametro
       
     if(numero <= 5){ //Numero es igual a true
 
-        return true //que retorne el numero 
+        return true ;//que retorne el numero 
     }else {
         return false;
     }
 }
-//Argumentos que se envian a la funcion find
-let arreglo = [6,6,6,6];
-console.log(find(arreglo,devolver));
+//Argumentos que se envian a la funcion devolver 
+let arreglo = [6,6,6,1];
+console.log(findIndex(arreglo,devolver));
+
+
+
