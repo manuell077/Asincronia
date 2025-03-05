@@ -6,7 +6,7 @@ function Promesa(){ //Se crea la promesa que se resuelve
          
 
     setTimeout( () => {  
-       resolve("Operacion completada");
+       resolve("Operacion completada");//si se resuelve devuelve esta cadena 
     },1000)
 
    } )
