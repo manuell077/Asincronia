@@ -17,7 +17,7 @@ function DevolverNum1(){
 
 }
 
-DevolverNum1().then((result) => {
+DevolverNum1().then((result) => { 
     alert(result);
     acumulador+= result;
     return new Promise((resolve, reject) => {

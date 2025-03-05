@@ -1,0 +1,15 @@
+{
+  "persona 1":  
+  {
+  "nombre": "Manuel Ardila",
+  "telefono": "3229112741",
+   "edad": "19"
+
+  },
+  "persona 2":
+  {
+    "nombre": "Kevin Paez",
+    "telefono": "232322321",
+    "edad": "20"
+  }
+} 
