@@ -1,0 +1,23 @@
+[
+    {
+      "nombre": "Lionel Messi",
+      "edad": 36,
+      "equipo": "Paris Saint-Germain",
+      "nacionalidad": "Argentina",
+      "posicion": "Delantero"
+    },
+    {
+      "nombre": "Cristiano Ronaldo",
+      "edad": 38,
+      "equipo": "Al Nassr",
+      "nacionalidad": "Portugal",
+      "posicion": "Delantero"
+    },
+    {
+      "nombre": "Neymar Jr.",
+      "edad": 31,
+      "equipo": "Al Hilal",
+      "nacionalidad": "Brasil",
+      "posicion": "Delantero"
+    }
+  ]
