@@ -1,0 +1,20 @@
+[
+ {
+    "ciudad":"Bucaramanga",
+    "poblacion":650000,
+    "departamento":"santander"
+ },{
+   "ciudad":"Bogota",
+   "poblacion":7900000,
+   "departamento":"cundinamarca"
+
+},{
+    "ciudad":"Medellin",
+    "Poblacion":4000000,
+    "departamento":"Antioquia"
+
+}
+
+
+
+]
